@@ -1,12 +1,8 @@
 #ifndef vnode_h
 #define vnode_h
-
+#include "globals.h"
 
 typedef struct Vnode Vnode;
-
-typedef struct Camera{
-    int timestamp;
-}Camera;
 
 typedef struct Node{
     int value;
